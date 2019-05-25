@@ -1,0 +1,52 @@
+body {
+	background-color: #232323;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid .row {
+	height: 8rem;
+}
+
+.card {
+	color: white;
+	max-width: 8rem;
+	transition: background 0.3s;
+	border-radius: 15%;
+}
+
+#message {
+	color: white;
+}
+
+#title-box {
+	color: white;
+	text-transform: uppercase;
+	border-radius: 12px;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+
+/*#title-box {
+	background-color: rgb(180,180,180);
+}*/
+
+@media (min-width: 768px) {
+
+	.container-fluid .row {
+		height: 12rem;
+	}
+
+	.card {
+		color: white;
+		max-width: 12rem;
+	}
+
+	h1 {
+	font-size: 400%;
+}
+}
+
+
